@@ -16,7 +16,7 @@ body{
     background-color: hsl(0, 0%, 95%);
     min-height: 100vh;
 }
-@media screen and (max-width:1000px){body{padding: 5em 0;}}
+
 .main_container{
     width: 1080px;
     height: fit-content;
@@ -81,4 +81,13 @@ section button{
 }
 .luxury button{
     color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width:1000px){
+    body{
+        padding: 5em 0;
+    }
+    .main_container{
+        margin: auto auto;
+    }
 }
