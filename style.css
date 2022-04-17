@@ -88,6 +88,6 @@ section button{
         padding: 5em 0;
     }
     .main_container{
-        margin: auto auto;
+        margin: auto 0.5em;
     }
 }
